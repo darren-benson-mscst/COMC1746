@@ -1,0 +1,10 @@
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!DesktopModules/
+
+# Ignore everything in the "wp-content" directory, except the "plugin"
+# and "themes" directories.
+DesktopModules/*
+!DesktopModules/dbenson/
+!DesktopModules/dbenson/*
